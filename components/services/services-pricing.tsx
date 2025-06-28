@@ -6,50 +6,61 @@ import { Button } from "@/components/ui/button"
 
 const plans = [
   {
-    name: "Starter",
-    price: "999",
+    name: "Landing Page ",
+    price: "10,000",
     description: "Perfect for small businesses and startups",
     features: [
-      "Basic Web Development",
-      "5 Pages Website",
-      "Mobile Responsive",
-      "Basic SEO Setup",
-      "3 Months Support",
-      "2 Revisions"
+      "A beautifull Landing Page website",
+      "Admin Panel",
+      "1st month server cost is totally free for you, after that 1000 /- per month",
+      "Tech Stack - Frontend : React.js , SEO , TailwindCSS",
+      "Tech Stack - Backend : Node.js , Express , MongoDb",
     ]
   },
   {
-    name: "Professional",
-    price: "2499",
-    description: "Ideal for growing businesses",
+    name: "Single Vendor Ecommerce",
+    price: "50,000",
+    description: "Ideal for growing businesses and online sales",
     features: [
-      "Advanced Web Development",
-      "10 Pages Website",
+      "A beautifull Ecommerce website",
+      "Admin Panel",
+      "User Panel",
       "Mobile Responsive",
-      "Advanced SEO Setup",
-      "6 Months Support",
-      "5 Revisions",
-      "Custom Features",
-      "Analytics Integration"
+      "Vendor Panel",
+      "1st month server cost is totally free for you, after that 1500 /- per month",
+      "Tech Stack - Frontend : Next.js / React.js , ShadCn , Material UI, TailwindCSS",
+      "Tech Stack - Backend : Node.js , Express , MongoDb",
     ],
     popular: true
   },
   {
-    name: "Enterprise",
-    price: "4999",
-    description: "For large scale organizations",
+    name: "Multi-Vendor Ecommerce",
+    price: "75,000",
+    description: "Ideal for big growing businesses and online sales",
     features: [
-      "Full-Scale Web Development",
-      "Unlimited Pages",
+      "A beautifull Ecommerce website and also mobile application for you",
+      "Google Play Store - Costing is upon client",
+      "Admin Panel",
       "Mobile Responsive",
-      "Complete SEO Package",
-      "12 Months Support",
-      "Unlimited Revisions",
-      "Custom Features",
-      "Analytics Integration",
-      "Priority Support",
-      "Security Audit"
-    ]
+      "1st month server cost is totally free for you, after that 2000 /- per month",
+      "Tech Stack - Frontend : Next.js / React Native & Flutter , ShadCn , TailwindCSS",
+      "Tech Stack - Backend : Node.js , Express , MongoDb",
+    ],
+   
+  },
+  {
+    name: "MLM Platform",
+    price: "50,000",
+    description: "Ideal for personal use and also for small business",
+    features: [
+      "Binary Matrix",
+      "User Panel",
+      "Admin Panel",
+      "1st month server cost is totally free for you, after that 1500 /- per month",
+      "Tech Stack - Frontend : Next.js / React Native & Flutter , ShadCn , TailwindCSS",
+      "Tech Stack - Backend : Node.js , Express , MongoDb",
+    ],
+   
   }
 ]
 
@@ -94,7 +105,7 @@ export default function ServicesPricing() {
                 <p className="text-gray-600 mb-6">{plan.description}</p>
                 
                 <div className="mb-8">
-                  <span className="text-4xl font-bold">${plan.price}</span>
+                  <span className="text-4xl font-bold">₹{plan.price}</span>
                   <span className="text-gray-600">/project</span>
                 </div>
                 

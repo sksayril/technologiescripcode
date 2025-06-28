@@ -22,7 +22,9 @@ const stack = [
       "Vue.js / Nuxt.js",
       "Angular",
       "TypeScript",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Material UI"
     ]
   },
   {
@@ -30,11 +32,10 @@ const stack = [
     title: "Backend Stack",
     description: "Robust server-side applications",
     items: [
-      "Node.js / Express",
-      "Python / Django",
-      "Java Spring Boot",
-      "Go",
-      "PHP Laravel"
+      "Node.js",
+      "Express.js",
+      "Django"
+    
     ]
   },
   {
@@ -44,7 +45,6 @@ const stack = [
     items: [
       "PostgreSQL",
       "MongoDB",
-      "MySQL",
       "Redis",
       "Firebase"
     ]

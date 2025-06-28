@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Downloads\project-bolt-sb1-phqxzekd (6)\project\app\about\page.tsx
+// File: C:\Users\sksay\Desktop\cripcocode\technologiescripcode\app\about\page.tsx
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -84,8 +84,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Our Location</h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Office2, Amadpur Schoolpara, Near Amadpur School<br />
-                      Meamri,Burdwan,713154
+                       Memari, Jhapantola , Purba Burdwan - 713146
                     </p>
                   </div>
                 </div>
