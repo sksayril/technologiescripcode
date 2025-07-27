@@ -1,4 +1,4 @@
-// File: C:\Users\sksay\Desktop\cripcocode\technologiescripcode\app\technologies\page.tsx
+// File: C:\Users\sksay\Desktop\cripcocode\ne\technologiescripcode\app\technologies\page.tsx
 import * as entry from '../../../../app/technologies/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
